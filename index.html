@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="simple-form">
+        <h1>HTML form</h1>
+        <form>
+          <label for="first-name">first name :</label>
+          <input type="text" id="first-name" name="first-name" autofocus />
+          <br />
+          <br />
+          <label for="last-name">last name :</label>
+          <input type="text" id="last-name" name="last-name" />
+          <br />
+          <br />
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" required />
+          <br />
+          <br />
+          <input type="radio" id="male" value="male" name="gender" />
+          <label for="male">Male</label>
+          <br />
+          <input type="radio" id="female" value="female" name="gender" />
+          <label for="female">Female</label>
+          <br /><br />
+          <input type="submit" />
+          <input type="reset" />
+        </form>
+      </section>
+      <hr />
+      <section class="employee-details">
+        <form>
+          <label for="first">first name :</label>
+          <input type="text" id="first" name="first-name" />
+          <br />
+          <br />
+          <label for="last">last name :</label>
+          <input type="text" id="last" name="last-name" />
+          <br />
+          <br />
+          <input type="radio" id="MAle" value="male" name="gender" />
+          <label for="MAle">Male</label>
+          <input type="radio" id="FEMale" value="female" name="gender" />
+          <label for="FEMale">Female</label>
+          <br /><br />
+          <label for="id">Employee ID :</label>
+          <input type="text" id="id" name="id" required />
+          <br /><br />
+          <label for="design">Designation :</label>
+          <input type="text" id="design" name="design" />
+          <br /><br />
+          <label for="phone">Phone Number</label>
+          <input type="text" id="phone" name="phone" />
+          <br /><br />
+          <input type="submit" />
+        </form>
+      </section>
+      <hr />
+      <section class="welcome">
+        <h2>welcome To GFG</h2>
+        <form>
+          <label for="username"> username:</label>
+          <input type="text" id="username" name="username" required />
+          <br /><br />
+          <label for="password">password</label>
+          <input type="password" id="password" name="password" required />
+          <br /><br />
+          <input type="submit" />
+        </form>
+      </section>
+      <hr />
+      <section class="student-registration">
+        <h2>student registration Form</h2>
+        <p>Fill in this form to register</p>
+        <form>
+          <label for="firstname">First Name</label>
+          <input
+            type="text"
+            placeholder="Enter Your first name"
+            name="firstname"
+            id="firstname"
+          />
+          <br /><br />
+          <label for="lastname">First Name</label>
+          <input
+            type="text"
+            placeholder="Enter Your last name"
+            name="lastname"
+            id="lastname"
+          />
+          <br /><br />
+          <label for="e-mail">First Name</label>
+          <input
+            type="email"
+            placeholder="Enter Your E-mail"
+            name="e-mail"
+            id="e-mail"
+            required
+          />
+          <br /><br />
+          <label for="Date">Date of Birth</label>
+          <input type="date" name="Date" id="Date" />
+          <br /><br />
+          <label for="Username">Set Username</label>
+          <input
+            type="text"
+            name="Username"
+            id="Username"
+            placeholder="Set Username"
+          />
+          <br /><br />
+          <label for="Password">Set password</label>
+          <input
+            type="password"
+            name="password"
+            id="Password"
+            placeholder="Set password"
+          />
+          <br /><br />
+          <label>Gender</label>
+          <br />
+          <label for="Male">Male</label>
+          <input type="radio" name="Gender" value="Male" id="Male" />
+          <br />
+          <label for="Female">Female</label>
+          <input type="radio" name="Gender" value="Female" id="Female" />
+          <br />
+          <label for="Others">Others</label>
+          <input type="radio" name="Gender" value="Others" id="Others" />
+          <br /><br />
+          <label for="course">course</label>
+          <select name="course" id="course">
+            <option value="html">html</option>
+            <option value="css">css</option>
+            <option value="js">js</option>
+            <option value="php">php</option>
+            <option value="c++">c++</option>
+          </select>
+        </form>
+      </section>
+      <hr />
+      <section class="login">
+        <form>
+          <label for="firstName">First Name</label>
+          <input
+            type="text"
+            placeholder="Enter Your first name"
+            name="firstname"
+            id="firstName"
+          />
+          <br />
+          <label for="lastName">First Name</label>
+          <input
+            type="text"
+            placeholder="Enter Your last name"
+            name="lastname"
+            id="lastName"
+          />
+          <br />
+          <label for="E-mail">First Name</label>
+          <input
+            type="email"
+            placeholder="Enter Your E-mail"
+            name="e-mail"
+            id="E-mail"
+          />
+          <br />
+          <label for="Pass">Set password</label>
+          <input
+            type="password"
+            name="password"
+            id="Pass"
+            placeholder="Set password"
+          />
+          <br />
+          <input type="submit" value="login!" />
+        </form>
+      </section>
+      <hr />
+      <section class="student-mark">
+        <h2>STUDENT MARKSHEET FORM</h2>
+        <form>
+          <label for="school-Name">School Name</label>
+          <input type="text" id="school-Name" name="school-name" />
+          <br />
+          <label for="Student-Name">Student Name</label>
+          <input type="text" id="Student-Name" name="Student-name" />
+          <br />
+          <label for="Father's-Name">Student Name</label>
+          <input type="text" id="Father's-Name" name="Father's-name" />
+          <br />
+          <label for="dob">Dob</label>
+          <input type="text" id="dob" name="dob" />
+          <br /><br />
+          <label>Gender</label>
+          <br />
+          <label for="MALE">Male</label>
+          <input type="radio" name="Gender" value="MALE" id="MALE" />
+          <br />
+          <label for="FEMALE">FEMALE</label>
+          <input type="radio" name="Gender" value="Female" id="FEMALE" />
+          <br />
+          <label for="Hindi-marks">Hindi marks</label>
+          <input type="text" id="Hindi-marks" name="Hindi-marks" />
+          <br />
+          <label for="English-marks">English marks</label>
+          <input type="text" id="English-marks" name="English-marks" />
+          <br />
+          <label for="Maths-marks">Math marks</label>
+          <input type="text" id="Maths-marks" name="Maths-marks" />
+          <br />
+          <label for="Physics-marks">Physics marks</label>
+          <input type="text" id="Physics-marks" name="Physics-marks" />
+          <br />
+          <input type="submit" />
+          <input type="reset" />
+        </form>
+      </section>
+      <hr />
+      <section class="following-form">
+        <h2>Please fill-out the following form</h2>
+        <form>
+          <label for="First-Name">First Name :</label>
+          <input type="text" id="First-Name" name="first-name" autofocus />
+          <br />
+          <label for="Last-Name">Last Name :</label>
+          <input type="text" id="Last-Name" name="last-name" />
+          <br />
+          <label for="Company">Company :</label>
+          <input type="text" id="Company" name="Company" />
+          <br />
+          <label for="Address">Address :</label>
+          <input type="text" id="Address" name="Address" />
+          <br />
+          <label for="City">City :</label>
+          <input type="text" id="City" name="City" />
+          <br />
+          <label for="State">State :</label>
+          <input type="text" id="State" name="State" />
+          <br />
+          <label for="Zip">Zip :</label>
+          <input type="text" id="Zip" name="Zip" />
+          <br />
+          <label for="Country">Country :</label>
+          <input type="text" id="Country" name="Country" />
+          <br />
+          <label for="Policy-Number">Policy Number :</label>
+          <input
+            type="text"
+            id="Policy-Number"
+            name="Policy-Number"
+            readonly
+            value="122"
+          />
+          <br />
+          <hr />
+          <input type="submit" />
+        </form>
+      </section>
+      <hr />
+      <section class="Details">
+        <h2>Basic Details</h2>
+        <form>
+          <label for="OrderId">OrderId</label>
+          <input type="text" id="OrderId" name="OrderId" />
+          <br />
+          <label for="CustomerId">CustomerId</label>
+          <input type="text" id="CustomerId" name="CustomerId" />
+          <br /><br />
+          <h2>Shipping Address</h2>
+          <label for="Street1">Street1</label>
+          <input type="text" id="Street1" name="Street1" />
+          <br />
+          <label for="Street2">Street2</label>
+          <input type="text" id="Street2" name="Street2" />
+          <br />
+          <label for="country">Country</label>
+          <input type="text" id="country" name="country" />
+          <br />
+          <label for="PostalCode">PostalCode</label>
+          <input type="text" id="PostalCode" name="PostalCode" />
+          <br /><br />
+          <h2>Billing Address</h2>
+          <label for="street1">Street1</label>
+          <input type="text" id="street1" name="street1" />
+          <br />
+          <label for="street2">Street2</label>
+          <input type="text" id="street2" name="street2" />
+          <br />
+          <label for="COuntry">Country</label>
+          <input type="text" id="COuntry" name="COuntry" />
+          <br />
+          <label for="POstalCode">PostalCode</label>
+          <input type="text" id="POstalCode" name="PostalCode" />
+          <br /><br />
+          <input type="submit" />
+        </form>
+      </section>
+      <hr />
+      <section class="form-container">
+        <h2>Suggestions Form</h2>
+        <form>
+          <input type="text" name="name" placeholder=" Enter Your Name" />
+          <br /><br />
+          <input type="email" name="e-mail" placeholder="Enter your E-mail" />
+          <br /><br />
+          <input type="text" name="phone" placeholder="Enter your Phone" />
+          <br /><br />
+          <textarea
+            name="Suggestions"
+            placeholder=" Write Your Suggestions here ..."
+          ></textarea>
+          <br /><br />
+          <input type="submit" />
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
